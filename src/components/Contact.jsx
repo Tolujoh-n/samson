@@ -35,6 +35,7 @@ const Contact = () => {
               {/* Google Map */}
               <iframe
                 src={contactInfo.googleMap}
+                title="Google Map"
                 frameBorder="0"
                 style={{ border: 0, width: "100%", height: "270px" }}
                 allowFullScreen=""
