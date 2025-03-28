@@ -1,15 +1,60 @@
-import React, { useState, useEffect } from "react";
-import data from "../data.json";
+import React, { useState } from "react";
+import image1 from "../assets/img/sam/Picture1.png";
+import image2 from "../assets/img/sam/Picture2.png";
+import image3 from "../assets/img/sam/Picture3.png";
+import image4 from "../assets/img/sam/Picture4.png";
+import image5 from "../assets/img/sam/Picture5.png";
+import image6 from "../assets/img/sam/Picture6.png";
 
 const Analysis = () => {
-  const [portfolioData, setPortfolioData] = useState(null);
   const [activeFilter, setActiveFilter] = useState("*");
 
-  useEffect(() => {
-    setPortfolioData(data); // Load data from JSON file
-  }, []);
+  const portfolioData = {
+    Analysis: {
+      title: "Portfolio Analysis",
+      description:
+        "Here is a showcase of our portfolio items categorized for your convenience.",
+    },
 
-  if (!portfolioData) return <div>Loading...</div>; // Show loading state while fetching data
+    portfolioItems: [
+      {
+        description: "Description for Item 1",
+        image: image1,
+        category: "category1",
+        gallery: "portfolio-gallery",
+      },
+      {
+        description: "Description for Item 2",
+        image: image2,
+        category: "category2",
+        gallery: "portfolio-gallery",
+      },
+      {
+        description: "Description for Item 3",
+        image: image3,
+        category: "category1",
+        gallery: "portfolio-gallery",
+      },
+      {
+        description: "Description for Item 4",
+        image: image4,
+        category: "category2",
+        gallery: "portfolio-gallery",
+      },
+      {
+        description: "Description for Item 5",
+        image: image5,
+        category: "category1",
+        gallery: "portfolio-gallery",
+      },
+      {
+        description: "Description for Item 6",
+        image: image6,
+        category: "category2",
+        gallery: "portfolio-gallery",
+      },
+    ],
+  };
 
   // Filter portfolio items based on selected category
   const filteredItems = portfolioData.portfolioItems.filter(
@@ -32,21 +77,6 @@ const Analysis = () => {
           data-layout="masonry"
           data-sort="original-order"
         >
-          {/* Portfolio Filters */}
-          <ul className="portfolio-filters isotope-filters">
-            {portfolioData.filters.map((filter, index) => (
-              <li
-                key={index}
-                data-filter={filter.filter}
-                className={filter.active ? "filter-active" : ""}
-                onClick={() => setActiveFilter(filter.filter)}
-              >
-                {filter.label}
-              </li>
-            ))}
-          </ul>
-          {/* End Portfolio Filters */}
-
           <div className="row gy-4 isotope-container">
             {filteredItems.map((item, index) => (
               <div
@@ -55,12 +85,12 @@ const Analysis = () => {
               >
                 <div className="portfolio-content h-100">
                   <img
+                    style={{ minHeight: "300px" }}
                     src={item.image}
                     className="img-fluid"
                     alt={item.title}
                   />
                   <div className="portfolio-info">
-                    <h4>{item.title}</h4>
                     <p>{item.description}</p>
                     <a
                       href={item.image}
@@ -70,13 +100,13 @@ const Analysis = () => {
                     >
                       <i className="bi bi-zoom-in"></i>
                     </a>
-                    <a
+                    {/* <a
                       href="portfolio-details.html"
                       title="More Details"
                       className="details-link"
                     >
                       <i className="bi bi-link-45deg"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

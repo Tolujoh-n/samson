@@ -2,55 +2,63 @@
   "sectionId": "about",
   "sectionClass": "about section",
   "title": "About",
-  "description": "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
+  "description": "Detail-oriented and motivated data analyst with a strong foundation in data analysis, statistical techniques, and data visualization. Holding a Bachelor’s degree in chemical engineering, I possess robust analytical and problem-solving skills and a track record of leveraging data to drive strategic decision-making and deliver actionable business insight.",
   "profileImgSrc": "./assets/img/my-profile-img.jpg",
-  "heading": "UI/UX Designer & Web Developer.",
-  "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "heading": "Data Analyst & Business Analyst",
+  "intro": "Results-driven data analyst with expertise in data analysis, statistical methods, and visualization. A chemical engineering graduate with exceptional analytical skills, dedicated to turning complex data into actionable business insights for strategic success.",
   "details": {
     "left": [
-      { "label": "Birthday", "value": "1 May 1995" },
-      { "label": "Website", "value": "www.example.com" },
-      { "label": "Phone", "value": "+123 456 7890" },
-      { "label": "City", "value": "New York, USA" }
+      { "label": "Birthday", "value": "06 July, 1999" },
+      { "label": "Website", "value": "https://samsonn.netlify.app/" },
+      { "label": "Phone", "value": "+2347065287439" },
+      { "label": "City", "value": "Lagos, Nigeria" }
     ],
     "right": [
-      { "label": "Age", "value": "30" },
-      { "label": "Degree", "value": "Master" },
-      { "label": "Email", "value": "email@example.com" },
+      { "label": "Age", "value": "25" },
+      { "label": "Degree", "value": "B.Eng" },
+      { "label": "Email", "value": "samsonolagbile@gmail.com" },
       { "label": "Freelance", "value": "Available" }
     ]
   },
-  "additionalInfo": "Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.",
+  "additionalInfo": "Analytical data professional with a chemical engineering background, specializing in data analysis, statistical techniques, and visualization to deliver impactful insights and drive business success.",
   "skills": [
     {
-      "skill": "HTML",
-      "value": 100
-    },
-    {
-      "skill": "CSS",
-      "value": 90
-    },
-    {
-      "skill": "JavaScript",
-      "value": 75
-    },
-    {
-      "skill": "PHP",
+      "skill": "Ms Excel",
       "value": 80
     },
     {
-      "skill": "WordPress/CMS",
+      "skill": "Python",
+      "value": 80
+    },
+    {
+      "skill": "SQL",
+      "value": 70
+    },
+    {
+      "skill": "PowerBI",
       "value": 90
     },
     {
-      "skill": "Photoshop",
-      "value": 55
+      "skill": "Tableau",
+      "value": 70
+    },
+    {
+      "skill": "IBM Cognos Analytics",
+      "value": 65
+    },
+    {
+      "skill": "Looker",
+      "value": 70
+    },
+    {
+      "skill": "Ruby",
+      "value": 50
     }
   ],
 
   "Resume": {
     "title": "Resume",
-    "description": "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas."
+    "description": "Expert in interpreting data to deliver strategic insights and drive decision-making."
   },
   "summary": {
     "name": "Brandon Johnson",
@@ -102,49 +110,50 @@
 
   "Servicessection": {
     "title": "Services",
-    "description": "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas."
+    "description": "Specialized in leveraging data visualization and analytical tools to present clear, actionable insights that solve complex business challenges."
   },
   "services": [
     {
-      "icon": "bi-briefcase",
-      "title": "Lorem Ipsum",
-      "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
-      "link": "service-details.html"
+      "icon": "bi-graph-up",
+      "title": "Data Analytics",
+      "description": "Transform raw data into actionable insights to drive smarter decisions and business growth.",
+      "link": "/"
     },
     {
-      "icon": "bi-card-checklist",
-      "title": "Dolor Sitema",
-      "description": "Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata",
-      "link": "service-details.html"
+      "icon": "bi-bar-chart-steps",
+      "title": "Business Analytics",
+      "description": "Analyze business performance and identify opportunities to optimize processes and maximize profitability.",
+      "link": "/"
     },
     {
-      "icon": "bi-bar-chart",
-      "title": "Sed ut perspiciatis",
-      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
-      "link": "service-details.html"
+      "icon": "bi-pie-chart",
+      "title": "Data Visualization",
+      "description": "Create compelling visual representations of data to uncover patterns and trends effectively.",
+      "link": "/"
     },
     {
-      "icon": "bi-binoculars",
-      "title": "Magni Dolores",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      "link": "service-details.html"
+      "icon": "bi-layout-sidebar-inset-reverse",
+      "title": "Dashboard Development",
+      "description": "Design interactive dashboards that provide real-time monitoring and performance metrics.",
+      "link": "/"
     },
     {
-      "icon": "bi-brightness-high",
-      "title": "Nemo Enim",
-      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque",
-      "link": "service-details.html"
+      "icon": "bi-diagram-3",
+      "title": "Business Process Optimization",
+      "description": "Streamline workflows and enhance operational efficiency through tailored process improvements.",
+      "link": "/"
     },
     {
-      "icon": "bi-calendar4-week",
-      "title": "Eiusmod Tempor",
-      "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi",
-      "link": "service-details.html"
+      "icon": "bi-calendar-event",
+      "title": "Project Management",
+      "description": "Plan, organize, and oversee projects to ensure timely delivery and successful outcomes.",
+      "link": "/"
     }
   ],
+
   "Testimonials": {
     "title": "Testimonials",
-    "description": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit"
+    "description": "Recognized by clients and colleagues for delivering data-driven insights that consistently exceed expectations and drive impactful results"
   },
   "testimonials": [
     {
@@ -165,12 +174,11 @@
       "name": "Jena Karlis",
       "role": "Store Owner"
     }
-    
   ],
 
   "Contact": {
     "title": "Contact",
-    "description": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit"
+    "description": "Feel free to reach out to discuss opportunities, collaborations, or insights—I'm just a message away!"
   },
   "contactInfo": [
     {
@@ -193,7 +201,7 @@
 
   "Analysis": {
     "title": "Portfolio",
-    "description": "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas."
+    "description": "Specialized in leveraging data visualization and analytical tools to present clear, actionable insights that solve complex business challenges."
   },
   "filters": [
     { "filter": "*", "label": "All", "active": true },

@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../data.json";
-import profileImgSrc from "../assets/img/my-profile-img.jpg";
+import profileImgSrc from "../assets/img/sam/Profile_pic1.jpg";
 
 const About = () => (
   <section id={data.sectionId} className={data.sectionClass}>

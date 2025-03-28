@@ -9,8 +9,9 @@ const Skills = () => {
         <div className="container section-title">
           <h2>Skills</h2>
           <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
+            Proficient in analyzing complex datasets to extract meaningful
+            insights, support data-driven decision-making, and deliver
+            actionable recommendations to improve business outcomes.
           </p>
         </div>
         {/* End Section Title */}

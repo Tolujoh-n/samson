@@ -1,5 +1,5 @@
 import React from "react";
-import herobg from "../assets/img/hero-bg.jpg";
+import herobg from "../assets/img/sam/main-hero.png";
 
 const Hero = () => (
   <section id="hero" className="hero section dark-background">
@@ -13,7 +13,7 @@ const Hero = () => (
           className="typed"
           data-typed-items="Designer, Developer, Freelancer, Photographer"
         >
-          Data Analyst
+          a Data Analyst, Business Analyst
         </span>
         <span
           className="typed-cursor typed-cursor--blink"

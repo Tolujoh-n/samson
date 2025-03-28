@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/img/my-profile-img.jpg";
+import profile from "../assets/img/sam/Profile_pic1.jpg";
 
 const Header = () => (
   <header id="header" className="header dark-background d-flex flex-column">
@@ -25,12 +25,12 @@ const Header = () => (
       <a href="https://github.com/Samson-Olagbile" className="facebook">
         <i className="bi bi-facebook"></i>
       </a>
-      <a href="https://github.com/Samson-Olagbile" className="instagram">
+      {/* <a href="https://github.com/Samson-Olagbile" className="instagram">
         <i className="bi bi-instagram"></i>
       </a>
       <a href="https://github.com/Samson-Olagbile" className="google-plus">
         <i className="bi bi-skype"></i>
-      </a>
+      </a> */}
       <a href="https://github.com/Samson-Olagbile" className="linkedin">
         <i className="bi bi-linkedin"></i>
       </a>
