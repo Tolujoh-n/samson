@@ -116,6 +116,6 @@ const Analysis = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Analysis;
