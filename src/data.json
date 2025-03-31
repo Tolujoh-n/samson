@@ -51,8 +51,8 @@
       "value": 70
     },
     {
-      "skill": "Ruby",
-      "value": 50
+      "skill": "Seaborn",
+      "value": 70
     }
   ],
 
@@ -73,33 +73,84 @@
       "description": "Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend"
     },
     {
-      "degree": "Bachelor of Fine Arts & Graphic Design",
-      "years": "2010 - 2014",
-      "institution": "Rochester Institute of Technology, Rochester, NY",
+      "degree": "Advanced Diploma in Business Administration",
+      "years": "2019 - 2020",
+      "institution": "Tekedia Institute, USA",
       "description": "Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila"
+    }
+  ],
+  "certification": [
+    {
+      "degree": "Project Management (PMP) Training",
+      "years": "2024",
+      "institution": "Society of Petroleum Engineers (SPE), Port Harcourt"
+    },
+    {
+      "degree": "Professional Data Scientist Certification",
+      "years": "2024",
+      "institution": "IBM"
+    },
+    {
+      "degree": "Professional Data Analyst Certification",
+      "years": "2024",
+      "institution": "IBM"
+    },
+    {
+      "degree": "Professional Data Analyst Certification",
+      "years": "2022",
+      "institution": "DataCamp"
+    },
+    {
+      "degree": "Professional Ethics",
+      "years": "2022",
+      "institution": "Corporate Finance Institute (CFI)"
+    },
+    {
+      "degree": "Leadership and Management",
+      "years": "2023",
+      "institution": "Learnali"
     }
   ],
   "professionalExperience": [
     {
-      "title": "Senior graphic design specialist",
-      "years": "2019 - Present",
-      "company": "Experion, New York, NY",
+      "title": "Head of Data Science",
+      "years": "2023 - 2024",
+      "company": "Quantum Innovative Technologies, Nigeria",
       "responsibilities": [
-        "Lead in the design, development, and implementation of the graphic, layout, and production communication materials",
-        "Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.",
-        "Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design",
-        "Oversee the efficient use of production project budgets ranging from $2,000 - $25,000"
+        "Directed and managed activities of the company’s data science team, achieving 100% productivity",
+        "Partnered with cross-functional teams to grasp business requirements and deliver actionable insights boosting work efficiency by 70%",
+        "Boosted team effectiveness by 50% since taking on the role."
       ]
     },
     {
-      "title": "Graphic design specialist",
-      "years": "2017 - 2018",
-      "company": "Stepping Stone Advertising, New York, NY",
+      "title": "Business Analyst",
+      "years": "2023 - 2023",
+      "company": "TATA Group",
       "responsibilities": [
-        "Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).",
-        "Managed up to 5 projects or tasks at a given time while under pressure",
-        "Recommended and consulted with clients on the most appropriate graphic design",
-        "Created 4+ design presentations and proposals a month for clients and account managers"
+        "Analyzed company sales data and developed a stakeholder dashboard, enhancing decision-making and strategy by 40%",
+        "Improved data processing efficiency by 20% through meticulous data cleaning.",
+        "Created visualizations and dashboards with relevant KPIs, achieving 95% accuracy to track company progress and product performance"
+      ]
+    },
+
+    {
+      "title": "Laboratory Analyst",
+      "years": "2021 - 2021",
+      "company": "Ardova plc",
+      "responsibilities": [
+        "Analyzed and certified petroleum product quality using established specifications, ensuring high standards.",
+        "Documented quality control test results, increasing workflow efficiency by 50%",
+        "Earned recognition as the best intern on the team for exceptional performance and dedication"
+      ]
+    },
+    {
+      "title": "Data Analyst",
+      "years": "2024 - 2025",
+      "company": "Jhonks ENVR Soln Limited",
+      "responsibilities": [
+        "Analyzed company sales data and developed a stakeholder dashboard, enhancing decision-making and strategy by 40%",
+        "Improved data processing efficiency by 60% through meticulous data cleaning.",
+        "Created visualizations and dashboards with relevant KPIs, achieving 95% accuracy to track company progress and product performance"
       ]
     }
   ],
@@ -153,19 +204,19 @@
   },
   "testimonials": [
     {
-      "quote": "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
-      "image": "assets/img/testimonials/testimonials-1.jpg",
+      "quote": "Sam transforms complex data into actionable insights using statistical analysis and visualization, turning challenges into strategies for business growth.",
+      "image": "assets/img/testimonials/tolujohn.jpg",
       "name": "Saul Goodman",
       "role": "Ceo & Founder"
     },
     {
-      "quote": "Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.",
+      "quote": "Leveraging chemical engineering and analytical expertise, Sam delivers clear insights through data analysis and visualization, empowering businesses to make strategic decisions.",
       "image": "assets/img/testimonials/testimonials-2.jpg",
       "name": "Sara Wilsson",
       "role": "Designer"
     },
     {
-      "quote": "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.",
+      "quote": "Sam excels in decoding data complexities, employing statistical methods and visualization to craft impactful strategies that drive success and create opportunities.",
       "image": "assets/img/testimonials/testimonials-3.jpg",
       "name": "Jena Karlis",
       "role": "Store Owner"
@@ -180,17 +231,17 @@
     {
       "icon": "bi-geo-alt",
       "title": "Address",
-      "content": "A108 Adam Street, New York, NY 535022"
+      "content": "Lagos, Nigeria"
     },
     {
       "icon": "bi-telephone",
       "title": "Call Us",
-      "content": "+1 5589 55488 55"
+      "content": "2347065287439"
     },
     {
       "icon": "bi-envelope",
       "title": "Email Us",
-      "content": "info@example.com"
+      "content": "samsonolagbile@gmail.com"
     }
   ],
   "googleMap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15885.123456789!2d3.656!3d6.4647!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4f4f4f4f4f4%3A0x1234567890abcdef!2sLekki%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1676961268712!5m2!1sen!2sng",

@@ -18,37 +18,43 @@ const Analysis = () => {
 
     portfolioItems: [
       {
-        description: "Description for Item 1",
+        description:
+          "Created a dashboard providing key insights into sales performance, revenue distribution, and customer purchasing behavior. It enables data-driven decision-making by tracking sales volume, top customers, employee performance, and revenue trends across different demographics.",
         image: image1,
         category: "category1",
         gallery: "portfolio-gallery",
       },
       {
-        description: "Description for Item 2",
+        description:
+          "A dashboard was developed to provide stakeholders with a clear, real-time snapshot of key business performance indicators (KPIs). It enables data-driven decision-making by consolidating insights on customer trends, product performance, revenue generation, and market expansion opportunities.",
         image: image2,
         category: "category2",
         gallery: "portfolio-gallery",
       },
       {
-        description: "Description for Item 3",
+        description:
+          "This project is an in-depth analysis of social media feed data from an organization’s four key platforms: Facebook, Instagram, LinkedIn, and Twitter. By leveraging data analytics, this project uncovers critical insights into audience behavior, content preferences, engagement patterns, and sentiment analysis.",
         image: image3,
         category: "category1",
         gallery: "portfolio-gallery",
       },
       {
-        description: "Description for Item 4",
+        description:
+          "The project is real-time and hands-on, working with an actual organization’s social media data. This makes it a high-value, practical analytics solution with direct business impact.",
         image: image4,
         category: "category2",
         gallery: "portfolio-gallery",
       },
       {
-        description: "Description for Item 5",
+        description:
+          "The project is real-time and hands-on, working with an actual organization’s social media data. These insights empower the organization to optimize its digital marketing strategy for higher engagement, brand visibility, and increased conversions.",
         image: image5,
         category: "category1",
         gallery: "portfolio-gallery",
       },
       {
-        description: "Description for Item 6",
+        description:
+          "This project provides an in-depth analysis of email marketing performance, evaluating key metrics such as delivery rate, open rate, click-through rate (CTR), and conversion rate. The goal was to assess the efficiency of email campaigns, identify engagement patterns, and uncover opportunities for higher customer conversions.",
         image: image6,
         category: "category2",
         gallery: "portfolio-gallery",

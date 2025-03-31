@@ -1,6 +1,6 @@
 import React from "react";
 import testimonialsData from "../data.json";
-import testimony1 from "../assets/img/testimonials/testimonials-1.jpg";
+import testimony1 from "../assets/img/testimonials/tolujohn.jpg";
 import testimony2 from "../assets/img/testimonials/testimonials-2.jpg";
 import testimony3 from "../assets/img/testimonials/testimonials-3.jpg";
 

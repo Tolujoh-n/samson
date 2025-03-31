@@ -43,7 +43,20 @@ const Resume = () => {
                 <p>
                   <em>{education.institution}</em>
                 </p>
-                <p>{education.description}</p>
+                {/* <p>{education.description}</p> */}
+              </div>
+            ))}
+
+            {/* Certification */}
+
+            <h3 className="resume-title">CERTIFICATIONS</h3>
+            {resumeData.certification.map((certification, index) => (
+              <div key={index} className="resume-item">
+                <h4>{certification.degree}</h4>
+                <h5>{certification.years}</h5>
+                <p>
+                  <em>{certification.institution}</em>
+                </p>
               </div>
             ))}
             {/* End Resume Item */}

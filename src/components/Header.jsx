@@ -19,21 +19,33 @@ const Header = () => (
     </a>
 
     <div className="social-links text-center">
-      <a href="https://github.com/Samson-Olagbile" className="twitter">
+      {/* <a href="https://github.com/Samson-Olagbile" className="twitter">
         <i className="bi bi-twitter-x"></i>
-      </a>
-      <a href="https://github.com/Samson-Olagbile" className="facebook">
-        <i className="bi bi-facebook"></i>
-      </a>
+      </a> */}
+
       {/* <a href="https://github.com/Samson-Olagbile" className="instagram">
         <i className="bi bi-instagram"></i>
       </a>
       <a href="https://github.com/Samson-Olagbile" className="google-plus">
         <i className="bi bi-skype"></i>
       </a> */}
-      <a href="https://github.com/Samson-Olagbile" className="linkedin">
+      <a
+        href="http://www.linkedin.com/in/olagbile-samson"
+        className="linkedin"
+        target="_blank"
+      >
         <i className="bi bi-linkedin"></i>
       </a>
+      <a
+        href="https://github.com/Samson-Olagbile"
+        className="github"
+        target="_blank"
+      >
+        <i className="bi bi-github"></i>
+      </a>
+      {/* <a href="https://github.com/Samson-Olagbile" className="facebook">
+        <i className="bi bi-facebook"></i>
+      </a> */}
     </div>
 
     <nav id="navmenu" className="navmenu">
