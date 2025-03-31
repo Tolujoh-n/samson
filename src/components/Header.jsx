@@ -19,20 +19,24 @@ const Header = () => (
     </a>
 
     <div className="social-links text-center">
-      {/* <a href="https://github.com/Samson-Olagbile" className="twitter">
+      {/* <a href="https://github.com/Samson-Olagbile" className="twitter" target="_blank"
+        rel="noreferrer">
         <i className="bi bi-twitter-x"></i>
       </a> */}
 
-      {/* <a href="https://github.com/Samson-Olagbile" className="instagram">
+      {/* <a href="https://github.com/Samson-Olagbile" className="instagram" target="_blank"
+        rel="noreferrer">
         <i className="bi bi-instagram"></i>
       </a>
-      <a href="https://github.com/Samson-Olagbile" className="google-plus">
+      <a href="https://github.com/Samson-Olagbile" className="google-plus" target="_blank"
+        rel="noreferrer">
         <i className="bi bi-skype"></i>
       </a> */}
       <a
         href="http://www.linkedin.com/in/olagbile-samson"
         className="linkedin"
         target="_blank"
+        rel="noreferrer"
       >
         <i className="bi bi-linkedin"></i>
       </a>
@@ -40,10 +44,12 @@ const Header = () => (
         href="https://github.com/Samson-Olagbile"
         className="github"
         target="_blank"
+        rel="noreferrer"
       >
         <i className="bi bi-github"></i>
       </a>
-      {/* <a href="https://github.com/Samson-Olagbile" className="facebook">
+      {/* <a href="https://github.com/Samson-Olagbile" className="facebook" target="_blank"
+        rel="noreferrer">
         <i className="bi bi-facebook"></i>
       </a> */}
     </div>
