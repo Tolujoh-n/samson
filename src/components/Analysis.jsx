@@ -7,7 +7,7 @@ import image5 from "../assets/img/sam/Picture5.png";
 import image6 from "../assets/img/sam/Picture6.png";
 
 const Analysis = () => {
-  const [activeFilter, setActiveFilter] = useState("*");
+  const [activeFilter] = useState("*");
 
   const portfolioData = {
     Analysis: {
@@ -116,6 +116,6 @@ const Analysis = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Analysis;
